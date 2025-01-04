@@ -1,5 +1,5 @@
 import './Home.css'; // Ensure styles are imported
-
+import hero_img from '../../public/assets/heroimg.jpg'
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
             </div>
         </div>
         <div>
-            <img src="../../public/assets/heroimg.jpg" alt="Team working on laptops" className="img-fluid hero-image" />
+            <img src={hero_img} alt="Team working on laptops" className="img-fluid hero-image" />
         </div>
     </section>
     </div>
